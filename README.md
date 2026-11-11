@@ -1,3 +1,5 @@
+<img width="179" height="161" alt="1000278294" src="https://github.com/user-attachments/assets/1612e880-0821-4fe2-905a-7de6a9bd3fc5" />
+<img width="214" height="242" alt="1000278292" src="https://github.com/user-attachments/assets/1d6c6744-549d-4546-be3a-df2199829e5f" />
 # Shisui Uchiha DSH-Go HD 4x Larger Theme
 
 Tema pet untuk aplikasi DSH-Go dengan desain Shisui Uchiha dalam resolusi HD 4x Larger.

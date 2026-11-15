@@ -1,0 +1,473 @@
+{
+  "schema": 1,
+  "id": "shisui-uchiha",
+  "name": "Shisui Uchiha",
+  "author": "OpenAI image generation",
+  "license": "Original AI-generated fan art; use subject to applicable platform terms",
+  "source": "Original generated Shisui Uchiha-inspired artwork; not sourced from a third-party sprite pack",
+  "pixelArt": true,
+  "scale": 4,
+  "canvas": {
+    "w": 192,
+    "h": 208
+  },
+  "anchor": {
+    "x": 95.0,
+    "baseline": 205
+  },
+  "contentBox": {
+    "x": 7,
+    "y": 24,
+    "w": 176,
+    "h": 30
+  },
+  "hitBoxes": {
+    "default": {
+      "x": 7,
+      "y": 24,
+      "w": 176,
+      "h": 181
+    },
+    "wide": {
+      "x": 7,
+      "y": 24,
+      "w": 176,
+      "h": 181
+    },
+    "sleeping": {
+      "x": 7,
+      "y": 24,
+      "w": 176,
+      "h": 181
+    }
+  },
+  "animations": {
+    "idle": {
+      "sheet": "idle.png",
+      "frameW": 704,
+      "frameH": 724,
+      "cols": 6,
+      "box": {
+        "x": 7,
+        "y": 24,
+        "w": 176,
+        "h": 181
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 180
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        },
+        {
+          "i": 4,
+          "ms": 180
+        },
+        {
+          "i": 5,
+          "ms": 180
+        }
+      ]
+    },
+    "waiting": {
+      "sheet": "waiting.png",
+      "frameW": 704,
+      "frameH": 708,
+      "cols": 6,
+      "box": {
+        "x": 7,
+        "y": 24,
+        "w": 176,
+        "h": 177
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 180
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        },
+        {
+          "i": 4,
+          "ms": 180
+        },
+        {
+          "i": 5,
+          "ms": 180
+        }
+      ]
+    },
+    "running-right": {
+      "sheet": "running-right.png",
+      "frameW": 712,
+      "frameH": 736,
+      "cols": 8,
+      "box": {
+        "x": 8,
+        "y": 22,
+        "w": 178,
+        "h": 184
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 150
+        },
+        {
+          "i": 1,
+          "ms": 150
+        },
+        {
+          "i": 2,
+          "ms": 150
+        },
+        {
+          "i": 3,
+          "ms": 150
+        },
+        {
+          "i": 4,
+          "ms": 150
+        },
+        {
+          "i": 5,
+          "ms": 150
+        },
+        {
+          "i": 6,
+          "ms": 150
+        },
+        {
+          "i": 7,
+          "ms": 150
+        }
+      ]
+    },
+    "running-left": {
+      "sheet": "running-left.png",
+      "frameW": 720,
+      "frameH": 712,
+      "cols": 8,
+      "box": {
+        "x": 6,
+        "y": 24,
+        "w": 180,
+        "h": 178
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 150
+        },
+        {
+          "i": 1,
+          "ms": 150
+        },
+        {
+          "i": 2,
+          "ms": 150
+        },
+        {
+          "i": 3,
+          "ms": 150
+        },
+        {
+          "i": 4,
+          "ms": 150
+        },
+        {
+          "i": 5,
+          "ms": 150
+        },
+        {
+          "i": 6,
+          "ms": 150
+        },
+        {
+          "i": 7,
+          "ms": 150
+        }
+      ]
+    },
+    "running": {
+      "sheet": "running.png",
+      "frameW": 712,
+      "frameH": 736,
+      "cols": 6,
+      "box": {
+        "x": 8,
+        "y": 22,
+        "w": 178,
+        "h": 184
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 150
+        },
+        {
+          "i": 1,
+          "ms": 150
+        },
+        {
+          "i": 2,
+          "ms": 150
+        },
+        {
+          "i": 3,
+          "ms": 150
+        },
+        {
+          "i": 4,
+          "ms": 150
+        },
+        {
+          "i": 5,
+          "ms": 150
+        }
+      ]
+    },
+    "waving": {
+      "sheet": "waving.png",
+      "frameW": 712,
+      "frameH": 696,
+      "cols": 4,
+      "box": {
+        "x": 7,
+        "y": 25,
+        "w": 178,
+        "h": 174
+      },
+      "loop": false,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 180
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        }
+      ]
+    },
+    "jumping": {
+      "sheet": "jumping.png",
+      "frameW": 644,
+      "frameH": 780,
+      "cols": 5,
+      "box": {
+        "x": 8,
+        "y": 11,
+        "w": 161,
+        "h": 195
+      },
+      "loop": false,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 180
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        },
+        {
+          "i": 4,
+          "ms": 180
+        }
+      ]
+    },
+    "failed": {
+      "sheet": "failed.png",
+      "frameW": 668,
+      "frameH": 680,
+      "cols": 8,
+      "box": {
+        "x": 18,
+        "y": 35,
+        "w": 167,
+        "h": 170
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 180
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        },
+        {
+          "i": 4,
+          "ms": 180
+        },
+        {
+          "i": 5,
+          "ms": 180
+        },
+        {
+          "i": 6,
+          "ms": 180
+        },
+        {
+          "i": 7,
+          "ms": 180
+        }
+      ]
+    },
+    "review": {
+      "sheet": "review.png",
+      "frameW": 616,
+      "frameH": 720,
+      "cols": 6,
+      "box": {
+        "x": 7,
+        "y": 21,
+        "w": 154,
+        "h": 180
+      },
+      "loop": false,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 180
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        },
+        {
+          "i": 4,
+          "ms": 180
+        },
+        {
+          "i": 5,
+          "ms": 180
+        }
+      ]
+    }
+  },
+  "states": {
+    "idle": [
+      "idle"
+    ],
+    "thinking": [
+      "waiting"
+    ],
+    "working": [
+      "running-right"
+    ],
+    "juggling": [
+      "running"
+    ],
+    "error": [
+      "failed"
+    ],
+    "attention": [
+      "review"
+    ],
+    "notification": [
+      "waiting"
+    ],
+    "sweeping": [
+      "running"
+    ],
+    "carrying": [
+      "running-right"
+    ],
+    "sleeping": [
+      "idle"
+    ],
+    "waking": [
+      "jumping"
+    ],
+    "roam": [
+      "running-right"
+    ]
+  },
+  "reactions": {
+    "tapLeft": "waving",
+    "tapRight": "waving",
+    "tickle": "jumping",
+    "drag": "running-right"
+  },
+  "roam": {
+    "anim": "running-right",
+    "faces": "right"
+  },
+  "timings": {
+    "minDisplay": {
+      "working": 1000,
+      "thinking": 1000,
+      "attention": 1800,
+      "error": 1800
+    },
+    "autoReturn": {
+      "attention": 2400,
+      "error": 3000
+    },
+    "wakeMs": 900
+  },
+  "sleep": {
+    "afterMs": 60000
+  }
+}

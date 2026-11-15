@@ -5,8 +5,8 @@
   "author": "OpenAI image generation",
   "license": "Original AI-generated fan art; use subject to applicable platform terms",
   "source": "Original generated Shisui Uchiha-inspired artwork; not sourced from a third-party sprite pack",
-  "pixelArt": true,
-  "scale": 4,
+  "pixelArt": false,
+  "scale": 6,
   "canvas": {
     "w": 192,
     "h": 208
@@ -44,8 +44,8 @@
   "animations": {
     "idle": {
       "sheet": "idle.png",
-      "frameW": 704,
-      "frameH": 724,
+      "frameW": 1056,
+      "frameH": 1086,
       "cols": 6,
       "box": {
         "x": 7,
@@ -83,8 +83,8 @@
     },
     "waiting": {
       "sheet": "waiting.png",
-      "frameW": 704,
-      "frameH": 708,
+      "frameW": 1056,
+      "frameH": 1062,
       "cols": 6,
       "box": {
         "x": 7,
@@ -122,8 +122,8 @@
     },
     "running-right": {
       "sheet": "running-right.png",
-      "frameW": 712,
-      "frameH": 736,
+      "frameW": 1068,
+      "frameH": 1104,
       "cols": 8,
       "box": {
         "x": 8,
@@ -169,8 +169,8 @@
     },
     "running-left": {
       "sheet": "running-left.png",
-      "frameW": 720,
-      "frameH": 712,
+      "frameW": 1080,
+      "frameH": 1068,
       "cols": 8,
       "box": {
         "x": 6,
@@ -216,8 +216,8 @@
     },
     "running": {
       "sheet": "running.png",
-      "frameW": 712,
-      "frameH": 736,
+      "frameW": 1068,
+      "frameH": 1104,
       "cols": 6,
       "box": {
         "x": 8,
@@ -255,8 +255,8 @@
     },
     "waving": {
       "sheet": "waving.png",
-      "frameW": 712,
-      "frameH": 696,
+      "frameW": 1068,
+      "frameH": 1044,
       "cols": 4,
       "box": {
         "x": 7,
@@ -286,8 +286,8 @@
     },
     "jumping": {
       "sheet": "jumping.png",
-      "frameW": 644,
-      "frameH": 780,
+      "frameW": 966,
+      "frameH": 1170,
       "cols": 5,
       "box": {
         "x": 8,
@@ -321,8 +321,8 @@
     },
     "failed": {
       "sheet": "failed.png",
-      "frameW": 668,
-      "frameH": 680,
+      "frameW": 1002,
+      "frameH": 1020,
       "cols": 8,
       "box": {
         "x": 18,
@@ -368,8 +368,8 @@
     },
     "review": {
       "sheet": "review.png",
-      "frameW": 616,
-      "frameH": 720,
+      "frameW": 924,
+      "frameH": 1080,
       "cols": 6,
       "box": {
         "x": 7,

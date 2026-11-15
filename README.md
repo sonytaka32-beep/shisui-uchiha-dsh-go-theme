@@ -1,15 +1,20 @@
-<img width="179" height="161" alt="1000278294" src="https://github.com/user-attachments/assets/1612e880-0821-4fe2-905a-7de6a9bd3fc5" />
-<img width="214" height="242" alt="1000278292" src="https://github.com/user-attachments/assets/1d6c6744-549d-4546-be3a-df2199829e5f" />
-# Shisui Uchiha DSH-Go HD 4x Larger Theme
+# Shisui Uchiha — DSH-Go Native Pet Pack (True 4x HD)
 
-Tema pet untuk aplikasi DSH-Go dengan desain Shisui Uchiha dalam resolusi HD 4x Larger.
+Tema karakter **Shisui Uchiha** untuk **DSH-Go** menggunakan format **Native Pet Pack (`schema: 1`)** yang telah ditingkatkan ke resolusi **4x HD** dengan rendering pixel-art tajam (`pixelArt: true`).
 
-## Tentang Tema Ini
-Tema ini dirancang khusus untuk DSH-Go aplikasi, menampilkan karakter Shisui Uchiha dalam kualitas HD dengan skala 4x larger untuk pengalaman visual yang menakjubkan.
+## Pembaruan Versi HD (4x Scale)
+- **Scale:** Ditingkatkan dari `2x` ke `4x` (resolusi frame sprite digandakan, mis. `idle` dari `352×362` menjadi `704×724` piksel).
+- **Anti-Blur Rendering:** Mengaktifkan `"pixelArt": true` pada `pack.json` agar Android tidak menerapkan filter *bilinear blur* saat ditampilkan pada ukuran **Large**.
+- **Logical Layout Preserved:** `canvas` (`192×208`), `anchor` (`95, 205`), `contentBox` (`176×30`), dan `hitBoxes` (`176×181`) tetap presisi pada koordinat dasar.
 
-## Fitur
-- 🎭 Desain Shisui Uchiha karakter utama
-- 📱 Dioptimalkan untuk DSH-Go aplikasi
-- 📐 Resolusi HD 4x Larger untuk kualitas tinggi
-- 🎨 Warna-warni yang mengesyankan dengan tema Shisui
-- ⚡ Performance yang ringan dan cepat
+## Cara Instalasi
+1. Unduh atau buat arsip `.zip` berisi `pack.json` beserta seluruh file sprite `.png`.
+2. Buka **DSH-Go** → masuk ke menu **Pets → Import**.
+3. Pilih file `.zip` tema ini, lalu pilih **Shisui Uchiha**.
+4. Atur **Size = Large** untuk tampilan paling tajam.
+
+## Catatan Penting
+- Semua file sprite `.png` dalam repositori ini telah di-upscale dari resolusi 2x ke 4x menggunakan nearest-neighbor resampling (menggunakan Pillow `Image.Resampling.NEAREST`) untuk mempertahankan kemurnian pixel art.
+- Nilai `frameW` dan `frameH` pada `pack.json` telah dikalikan 2x sesuai dengan perkalian `logical_size × scale`.
+- Tidak perlu mengubah `canvas`, `anchor`, `contentBox`, atau `hitBoxes` — nilai-nilai ini tetap sama karena merupakan satuan logis 1x.
+- Skema `schema: 1` tetap utuh untuk kompatibilitas dengan DSH-Go.
